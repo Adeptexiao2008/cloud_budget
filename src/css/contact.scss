@@ -1,0 +1,96 @@
+
+.contact {
+  padding: 100px 0;
+  &__title {
+    @include text(600, 36px, 44px);
+    margin: 50px 0;
+  }
+  &__form {
+    line-height: 19px;
+    color: rgba(19, 39, 67, 0.5);
+  }
+  &__mail2 {
+    padding: 21px 146px 21px 31px;
+    border: 1px solid #333333;
+    border-radius: 6px;
+    width: 255px;
+    height: 60px;
+    left: 735px;
+    top: 3059px;
+  }
+  &__mail4{
+    padding: 21px 146px 21px 31px;
+    border: 1px solid #333333;
+    border-radius: 6px;
+    width: 255px;
+    height: 60px;
+    left: 735px;
+    top: 3059px;
+    margin-left: 25px;
+  }
+  &__mail3 {
+    width: 540px;
+    height: 60px;
+    left: 735px;
+    top: 3143px;
+    border: 1px solid #333333;
+    border-radius: 6px;
+  }
+  &__mail5{
+    width: 540px;
+    height: 60px;
+    left: 735px;
+    top: 3143px;
+    border: 1px solid #333333;
+    border-radius: 6px; padding: 21px 403px 21px 31px;
+    margin-top: 23px;
+  }
+  &__btn {
+    background: #ED4C5C;
+    border-radius: 6px;
+    height: 50px;
+    padding: 0 53px;
+    border: 2px solid red;
+    @include text(600, 14px, 17px);
+    color: #FFFFFF;
+    cursor: pointer;
+    transition: .3s;
+    &:hover {
+      background: transparent;
+      border: 2px solid red;
+      color: red;
+      transition: 1.5s
+    }
+  }
+  &__right{
+    top: 30%;
+    left: 0;
+    transform: translate(55%, -40%);
+  }
+  &__mail3{
+    margin: 20px 0  20px ;
+    padding: 21px 403px 21px 31px;
+  }
+  &-top{
+    align-items: center;
+    justify-content: space-between;
+  }
+
+}
+
+
+@media (max-width: 841px) {
+  .contact__mail2{
+    height: 50px;
+  }
+  .contact__mail3{
+    height: 50px;
+  }
+  .contact__mail4{
+    height: 50px;
+  }
+  .contact__mail5{
+    height: 50px;
+  }
+
+}
